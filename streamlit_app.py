@@ -15,7 +15,7 @@ summary = "give me a brief summary of this source"
 queston = st.text_input(
     "Ask something about the source",
     disables=not uploaded_file,
-}
+)
 
 if uploaded_file:
     article = uploaded_file.read().decode()
