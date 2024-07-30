@@ -1,5 +1,5 @@
 import streamlit as st
-import anthropic
+import Anthropic
 
 anthropic_api_key = st.secrets["anthropic_key"]
 
